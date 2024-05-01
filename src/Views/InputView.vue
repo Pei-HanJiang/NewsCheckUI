@@ -14,7 +14,9 @@
         placeholder="News input"
         class="custom2"
       />
-      <n-button @click="$router.push('/result')" class="submitBtn">Submit</n-button>
+      <n-button @click="$router.push('/result')" class="submitBtn"
+        >Submit</n-button
+      >
     </n-space>
   </div>
 </template>
@@ -47,14 +49,17 @@ export default defineComponent({
   margin-bottom: 20px;
 }
 .custom1 {
-    width: 800px; /* Set the width of the input */
+  width: 800px; /* Set the width of the input */
 }
 
 .custom2 {
-    height: 400px;
+  height: 400px;
 }
 
 .submitBtn {
-    margin-left: calc(50% - 50px); /* Set left margin to half of the window's width minus half of the button's width */
+  margin-left: calc(
+    50% - 50px
+  ); /* Set left margin to half of the window's width minus half of the button's width */
+  margin-top: 5px;
 }
 </style>

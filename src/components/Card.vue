@@ -3,10 +3,12 @@
   <n-card title="Mass bleaching of coral reefs caused by climate change and warming oceans, scientists say">
     <template #cover>
       <img
-        src="/Users/peihanjiang/Desktop/Thesis/NewsCheck/src/Images/coral.jpeg"
+        src="../Images/coral.jpeg"
       />
     </template>
-    Sky News
+    <div class="source">
+      Sky News
+    </div>
     <n-tag :bordered="false" type="success" class="tag">
       80%
     </n-tag>
@@ -14,13 +16,15 @@
 </a> 
 
 <a href="">
-  <n-card title="dsafdjkashfjkhadsjkfhjkahsdjkfhdsakjjhfsdjkhdsfakj">
+  <n-card title="dsafdjkashfjkhadsjkfhjkahsdjkfhdsakjjhfsdjkhdsfakjdsdashkjhdskjahdjksafhkjdfsahdsjkafhjkdsah">
     <template #cover>
       <img
-        src="/Users/peihanjiang/Desktop/Thesis/NewsCheck/src/Images/coral.jpeg"
+        src="../Images/JoeBiden.jpeg"
       />
     </template>
-    Joe Biden
+    <div class="source">
+      Joe Biden
+    </div>
     <n-tag :bordered="false" type="warning" class="tag">
       60%
     </n-tag>
@@ -31,10 +35,12 @@
   <n-card title="Global warming is fake">
     <template #cover>
       <img
-        src="/Users/peihanjiang/Desktop/Thesis/NewsCheck/src/Images/coral.jpeg"
+        src="../Images/Trump.jpeg"
       />
     </template>
-    Donald Trump
+    <div class="source">
+      Donald Trump
+    </div>
     <n-tag :bordered="false" type="error" class="tag">
       30%
     </n-tag>
@@ -54,7 +60,7 @@ import { NCard, NTag } from "naive-ui";
 </script>
 <style scoped>
 .n-card {
-  max-width: 400px;
+  width: 400px;
   height: 400px;
   box-shadow: 0px 0px 15px rgba(105, 92, 92, 0.3);
   margin: 10px;
@@ -70,6 +76,11 @@ import { NCard, NTag } from "naive-ui";
   position: absolute; /* Set position to absolute */
   bottom: 10px; /* Adjust as needed */
   right: 10px; /* Adjust as needed */
+}
+
+.source {
+  position: absolute;
+  bottom: 10px;
 }
 
 </style>

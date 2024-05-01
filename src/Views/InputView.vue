@@ -1,4 +1,7 @@
 <template>
+  <div class="text">
+    <h1>Give us more information</h1>
+  </div>
   <div class="body-container">
     <n-space vertical>
       <n-input
@@ -61,5 +64,19 @@ export default defineComponent({
     50% - 50px
   ); /* Set left margin to half of the window's width minus half of the button's width */
   margin-top: 5px;
+  margin-bottom: -10%;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -5%;
+  margin-bottom: 1%;
 }
 </style>
+
+<!-- 若需動態輸入可以參考 -->
+<!-- https://www.naiveui.com/zh-CN/os-theme/components/dynamic-input -->
+<!-- 可考慮增加steps -->
+

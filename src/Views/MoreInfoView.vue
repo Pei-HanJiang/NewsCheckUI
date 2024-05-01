@@ -4,7 +4,7 @@
   </div>
   <br/>
   <div class="btn">
-      <n-button @click="$router.push('/input')">Go to the firstPage</n-button>
+      <n-button @click="$router.push('/')">Go to the firstPage</n-button>
   </div>
 </template>
 

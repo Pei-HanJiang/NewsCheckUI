@@ -26,6 +26,7 @@ import { RouterLink } from "vue-router";
   margin: 5% 0;
   box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.3); 
 }
+/* test  */
 
 .body-container {
   display: flex;
@@ -33,6 +34,7 @@ import { RouterLink } from "vue-router";
   align-items: center;
   background-color: #ffffff; /* 背景顏色 */
   width: 90%;
+  border-radius: 20px; /* 設定圓形 */
   margin: 0 auto; /* 水平置中 */
   margin-bottom: 20px;
 }

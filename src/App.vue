@@ -17,5 +17,8 @@
 </template>
 
 <style scoped>
+    .container{
+      background-color: #f0f0f0;
+    }
 </style>
 

@@ -18,9 +18,8 @@
     <a href="https://news.sky.com/story/mass-bleaching-of-coral-reefs-caused-by-climate-change-and-warming-oceans-scientists-say-13116150">https://news.sky.com/story/mass-bleaching-of-coral-reefs-caused-by-climate-change-and-warming-oceans-scientists-say-13116150</a>
   </div>
   <div class="btn">
-    <n-button @click="$router.push('/moreinfo')">Go back to previous page</n-button>  
-    <n-button @click="$router.push('/')">Go to the firstPage</n-button>
-    
+    <n-button class="reroute" @click="$router.push('/moreinfo')">Go back to previous page</n-button>  
+    <n-button class="reroute" @click="$router.push('/')">Go to the firstPage</n-button>
   </div>
 </template>
 
@@ -34,6 +33,10 @@ import { NButton } from "naive-ui";
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.reroute {
+  margin-right: 8px;
 }
 .container {
   justify-content: center;

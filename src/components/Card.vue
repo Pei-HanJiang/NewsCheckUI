@@ -1,6 +1,5 @@
 <template>
-<a href="https://news.sky.com/story/mass-bleaching-of-coral-reefs-caused-by-climate-change-and-warming-oceans-scientists-say-13116150">
-  <n-card title="Mass bleaching of coral reefs caused by climate change and warming oceans, scientists say">
+  <n-card @click="$router.push('/link')" title="Mass bleaching of coral reefs caused by climate change and warming oceans, scientists say">
     <template #cover>
       <img
         src="../Images/coral.jpeg"
@@ -13,7 +12,7 @@
       80%
     </n-tag>
   </n-card>
-</a> 
+
 
 <a href="">
   <n-card title="dsafdjkashfjkhadsjkfhjkahsdjkfhdsakjjhfsdjkhdsfakjdsdashkjhdskjahdjksafhkjdfsahdsjkafhjkdsah">
@@ -84,3 +83,4 @@ import { NCard, NTag } from "naive-ui";
 }
 
 </style>
+ 

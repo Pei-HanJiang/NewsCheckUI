@@ -4,6 +4,8 @@ import HomeView from "@/Views/HomeView.vue";
 import InputView from "@/Views/InputView.vue";
 import ResultView from "@/Views/ResultView.vue";
 import MoreInfoView from "@/Views/MoreInfoView.vue";
+import LinkView from "@/Views/LinkView.vue";
+
 const router = createRouter({
     history: createWebHistory(import.meta.env.BASE_URL),
     routes: [
@@ -26,6 +28,11 @@ const router = createRouter({
             path: "/moreinfo",
             name: "MoreInfo",
             component: MoreInfoView
+        },
+        {
+            path: "/link",
+            name: "Link",
+            component: LinkView
         }
     ]
 })

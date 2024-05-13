@@ -7,7 +7,7 @@ import { RouterLink } from "vue-router";
 <template>
   <div class="body-container">
     <div class="left-content">
-      <h1>Identify questionable</h1>
+      <h1>Identify Questionable</h1>
       <p>Verify article authenticity with confidence scores.</p>
       <!-- can also use <RouterLink to="/" on a text -->
         <n-button @click="$router.push('/input')">Get Score</n-button>

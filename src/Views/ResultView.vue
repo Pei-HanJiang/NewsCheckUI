@@ -107,7 +107,7 @@ import { NButton, NProgress, NScrollbar, NPopover } from "naive-ui";
 .content {
   display: flex;
   justify-content: center;
-  width: 97%;
+  width: 75%;
   max-height: 97%;
   align-items: center;
   margin: 0 auto;
@@ -121,7 +121,6 @@ import { NButton, NProgress, NScrollbar, NPopover } from "naive-ui";
   align-items: center;
   margin: 0 auto;
   height: 480px;
-  width: 1200px;
   border-radius: 10px;
   background-color: #f0f0f0;
   margin-bottom: 15px;

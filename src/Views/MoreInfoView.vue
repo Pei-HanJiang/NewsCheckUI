@@ -1,6 +1,6 @@
 <template>
   <div class="text">
-    <h1>More news</h1>
+    <h1>More News</h1>
   </div>
   <div class="card-container">
     <Card />
@@ -21,13 +21,13 @@ import { NButton } from "naive-ui";
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  margin-top: 3.5%;
 }
 
 .btn {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 25px;
 }
 
 .text {

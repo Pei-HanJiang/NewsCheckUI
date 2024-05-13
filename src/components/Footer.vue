@@ -6,7 +6,7 @@
 
 <style scoped>
 .container {
-  height: 52vh;
+  height: 12.5vh;
   display: block;
   padding: 0 5%;
   background-color: #f0f0f0;

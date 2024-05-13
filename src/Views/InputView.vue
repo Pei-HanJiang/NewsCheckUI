@@ -1,7 +1,7 @@
 <template>
   <div class="body-container">
     <n-space vertical>
-      <h1 class="text">Give us more information</h1>
+      <h1 class="text">Give Us More Information</h1>
       <n-input type="url"
         v-model:value="value"
         
@@ -40,6 +40,7 @@ export default defineComponent({
 </script>
 
 <style scoped>
+
 .body-container {
   display: flex;
   justify-content: center;
